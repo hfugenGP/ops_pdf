@@ -1,0 +1,22 @@
+{
+  "name": "OPS_PDF",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.7.1",
+    "@types/pdf-parse": "^1.1.1",
+    "ts-node": "^10.2.1"
+  },
+  "dependencies": {
+    "pdf-parse": "^1.1.1",
+    "pdfreader": "^1.2.10"
+  }
+}
